@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>STRUIT</title>
+  <style>
+    body {
+      background-color: pink;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0 10px;
+    }
+
+    h1 {
+      font-family: 'Georgia', serif;
+      color: #800080;
+      font-size: 3em;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #ff69b4;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.2em;
+      font-family: 'Verdana', sans-serif;
+    }
+
+    nav a:hover {
+      color: #800080;
+    }
+
+    marquee {
+      background-color: white;
+      color: #FF1493;
+      font-size: 1.5em;
+      padding: 10px;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    section {
+      padding: 20px;
+      font-size: 1.2em;
+    }
+
+    #inicio {
+      color: #006400;
+      font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    #menu {
+      color: #FF4500;
+      font-family: 'Courier New', monospace;
+    }
+
+    #ofertas {
+      color: #00008B;
+      font-family: 'Tahoma', sans-serif;
+    }
+  </style>
+</head>
+<body><img src="images.jpeg" alt="images.jpeg" width="100" height="100">
+    
+
+  <header>
+    <h1>AUTOLAVADO</h1>
+  </header>
+
+  <marquee behavior="scroll" direction="left">Brilla a tu manera</marquee>
+
+   <nav>
+    <a href="Examen.html">Inicio</a>
+   
+  </nav>
+  
+
+  <section id="inicio">
+    <h2>Carta de valor</h2>
+    <p>Ofrecemos el servicio compuesto por:
+    <li>Lavado por fuera con shampoo restaurador y encerado</li>
+    <li>Aspirado en tablero y alfomfra en un buen
+     estado</li>
+     <img src="almo.jpg" alt="almo.jpg" width="300" height="200">
+    <li>Lavado de neumáticos con jabon con espuma acida</li>
+    <li>Almorol en tapas de la puerta y tablero</li>
+    <li>Vidrios limpios con su líquido fino</li>
+    <li>Aroma rico </li>
+    </p>
+    <img src="mor.jpg" alt="mor.jpg" width="300" height="200">
+    
+    
+  </section
+  
+
+
+
+</body>
+</html>
