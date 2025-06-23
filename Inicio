@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto de emprendimiento STRUIT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+            padding: 0;
+        }
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .descripcion {
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        .contenedor-video {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        video {
+            width: 100%;
+            max-width: 720px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cocteles STRUIT</h1>
+        <p class="descripcion">Nuestro producto provee calidad y frescura a través de nuestro empeño</p>
+    </header>
+    <div class="contenedor-video">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </div>
+</body>
+</html>
